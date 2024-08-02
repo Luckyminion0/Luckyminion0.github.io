@@ -3,10 +3,10 @@ const git = simpleGit();
 const fs = require('fs');
 const path = require('path');
 
-const startDate = new Date('2024-01-06');
-const endDate = new Date('2024-06-30');
-const commitMessage = 'initial commit';
-const maxCommitsPerDay = 3;
+const startDate = new Date('2024-07-01');
+const endDate = new Date('2024-07-31');
+const commitMessage = 'updated commit';
+const maxCommitsPerDay = 2;
 const minCommitsPerDay = 0;
 const minDaysPerWeek = 0;
 const maxDaysPerWeek = 3;
