@@ -1571,6 +1571,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contacts-list {
     grid-template-columns: 1fr 1fr;
+    gap: 30px 15px;
   }
 
 
@@ -1816,7 +1817,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .main-content {
     min-width: 75%;
-    width: 75%;
+    width: 100%;
     margin: 0;
   }
 
